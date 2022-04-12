@@ -1,0 +1,28 @@
+.asideContainer{
+    background-image: linear-gradient(90deg, black, grey, black, black, grey, black);
+    color: white;
+    padding: 10px;
+
+    .carroselAside {
+        width: 60%;
+        margin-left: 20%;
+
+        .asideImage{
+            background-color: black;
+            border-radius: 20px;
+
+            box-shadow: 1px 1px 1px 5px rgba(83,3,83,83);
+            padding: 10px;
+        }
+    }
+}
+
+@media screen and (max-width:412px) {
+    .asideContainer{
+        .carroselAside{
+            width: 100%;
+            margin-left: 0;
+        }
+    }
+    
+}
